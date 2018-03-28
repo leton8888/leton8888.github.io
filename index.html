@@ -83,6 +83,402 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
+      <a href="/2018/03/29/Mosh-安装/" title="Mosh 安装" itemprop="url">Mosh 安装</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="leton8888" target="_blank" itemprop="author">leton8888</a>
+		
+  <p class="article-time">
+    <time datetime="2018-03-28T17:51:38.000Z" itemprop="datePublished"> Published 2018-03-29</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <h1 id="Mosh安装"><a href="#Mosh安装" class="headerlink" title="Mosh安装"></a>Mosh安装</h1><h2 id="Mac下安装"><a href="#Mac下安装" class="headerlink" title="Mac下安装:"></a>Mac下安装:</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install mosh</span><br></pre></td></tr></table></figure>
+<h2 id="Ubuntu下安装"><a href="#Ubuntu下安装" class="headerlink" title="Ubuntu下安装"></a>Ubuntu下安装</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install mosh</span><br></pre></td></tr></table></figure>
+<h2 id="CentOS"><a href="#CentOS" class="headerlink" title="CentOS"></a>CentOS</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install mosh</span><br></pre></td></tr></table></figure>
+<p>然并卵Centos7下各种无法安装,编译都不行,果断换Ubuntu了</p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/SSH/">SSH</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/ssh/">ssh</a><a href="/tags/mosh/">mosh</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2018/03/29/youtube-dl-安装使用/" title="youtube-dl 安装使用" itemprop="url">youtube-dl 安装使用</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="leton8888" target="_blank" itemprop="author">leton8888</a>
+		
+  <p class="article-time">
+    <time datetime="2018-03-28T17:45:08.000Z" itemprop="datePublished"> Published 2018-03-29</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <h1 id="youtube-downloader-安装和使用"><a href="#youtube-downloader-安装和使用" class="headerlink" title="youtube downloader 安装和使用"></a>youtube downloader 安装和使用</h1><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>1.安装</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl</span><br></pre></td></tr></table></figure>
+<p>2.添加权限<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chmod a+rx /usr/local/bin/youtube-dl</span><br></pre></td></tr></table></figure></p>
+<p>3.查看可用格式<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">youtube-dl -F url</span><br></pre></td></tr></table></figure></p>
+<p>4.自动下载最优格式</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">youtube-dl -f 'bestvideo' -o '%(title)s.f%(format_id)s.%(ext)s' youtube_video_url</span><br></pre></td></tr></table></figure>
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/VPS/">VPS</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/youtube/">youtube</a><a href="/tags/youtube-downloader/">youtube downloader</a><a href="/tags/youtube-dl/">youtube-dl</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2018/03/29/无密码登陆/" title="无密码登陆" itemprop="url">无密码登陆</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="leton8888" target="_blank" itemprop="author">leton8888</a>
+		
+  <p class="article-time">
+    <time datetime="2018-03-28T17:39:10.000Z" itemprop="datePublished"> Published 2018-03-29</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <h1 id="无密码登陆"><a href="#无密码登陆" class="headerlink" title="无密码登陆"></a>无密码登陆</h1><h2 id="如何将公钥上传到VPS"><a href="#如何将公钥上传到VPS" class="headerlink" title="如何将公钥上传到VPS"></a>如何将公钥上传到VPS</h2><p>ssh-copy-id -i /public key path/id_rsa.pub  user_name@host_ip -p port_num</p>
+<h2 id="VPS上禁用密码登陆的设定"><a href="#VPS上禁用密码登陆的设定" class="headerlink" title="VPS上禁用密码登陆的设定"></a>VPS上禁用密码登陆的设定</h2><p>待续…</p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/SSH/">SSH</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/ssh/">ssh</a><a href="/tags/VPS/">VPS</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2018/03/29/一键安装Shadowsocks/" title="一键安装Shadowsocks" itemprop="url">一键安装Shadowsocks</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="leton8888" target="_blank" itemprop="author">leton8888</a>
+		
+  <p class="article-time">
+    <time datetime="2018-03-28T17:34:55.000Z" itemprop="datePublished"> Published 2018-03-29</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <h1 id="一键安装Shadowsocks"><a href="#一键安装Shadowsocks" class="headerlink" title="一键安装Shadowsocks"></a>一键安装Shadowsocks</h1><p>使用root用户登录，运行以下命令：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh</span><br><span class="line">chmod +x shadowsocks-all.sh</span><br><span class="line">./shadowsocks-all.sh 2&gt;&amp;1 | tee shadowsocks-all.log</span><br></pre></td></tr></table></figure>
+<p>安装完成后，脚本提示如下</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">Congratulations, your_shadowsocks_version install completed!</span><br><span class="line">Your Server IP        :your_server_ip</span><br><span class="line">Your Server Port      :your_server_port</span><br><span class="line">Your Password         :your_password</span><br><span class="line">Your Encryption Method:your_encryption_method</span><br><span class="line"></span><br><span class="line">Your QR Code: (For Shadowsocks Windows, OSX, Android and iOS clients)</span><br><span class="line"> ss://your_encryption_method:your_password@your_server_ip:your_server_port</span><br><span class="line">Your QR Code has been saved as a PNG file path:</span><br><span class="line"> your_path.png</span><br><span class="line"></span><br><span class="line">Welcome to visit:https://teddysun.com/486.html</span><br><span class="line">Enjoy it!</span><br><span class="line">卸载方法</span><br><span class="line">若已安装多个版本，则卸载时也需多次运行（每次卸载一种）</span><br><span class="line"></span><br><span class="line">使用root用户登录，运行以下命令：</span><br><span class="line"></span><br><span class="line">./shadowsocks-all.sh uninstall</span><br></pre></td></tr></table></figure>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/Shadowsocks/">Shadowsocks</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/shadowsocks/">shadowsocks</a><a href="/tags/VPS/">VPS</a><a href="/tags/ss/">ss</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2018/03/29/一键开启bbr/" title="一键开启bbr" itemprop="url">一键开启bbr</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="leton8888" target="_blank" itemprop="author">leton8888</a>
+		
+  <p class="article-time">
+    <time datetime="2018-03-28T17:01:37.000Z" itemprop="datePublished"> Published 2018-03-29</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>#一键开启bbr<br>引用自<a href="‘https://teddysun.com/489.html’">https://teddysun.com/489.html</a></p>
+<p>使用root用户登录，运行以下命令：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh &amp;&amp; chmod +x bbr.sh &amp;&amp; ./bbr.sh</span><br></pre></td></tr></table></figure></p>
+<p>安装完成后，脚本会提示需要重启 VPS，输入 y 并回车后重启。</p>
+<p>重启完成后，进入 VPS，验证一下是否成功安装最新内核并开启 TCP BBR，输入以下命令：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">uname -r</span><br></pre></td></tr></table></figure>
+<p>查看内核版本，显示为最新版就表示 OK 了</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sysctl net.ipv4.tcp_available_congestion_control</span><br></pre></td></tr></table></figure>
+<p>返回值一般为：</p>
+<p>net.ipv4.tcp_available_congestion_control = bbr cubic reno</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sysctl net.ipv4.tcp_congestion_control</span><br></pre></td></tr></table></figure>
+<p>返回值一般为：</p>
+<p>net.ipv4.tcp_congestion_control = bbr</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sysctl net.core.default_qdisc</span><br></pre></td></tr></table></figure>
+<p>返回值一般为：</p>
+<p>net.core.default_qdisc = fq</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lsmod | grep bbr</span><br></pre></td></tr></table></figure>
+<p>返回值有 tcp_bbr 模块即说明 bbr 已启动。注意：并不是所有的 VPS 都会有此返回值，若没有也属正常。</p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/VPS/">VPS</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/shadowsocks/">shadowsocks</a><a href="/tags/bbr/">bbr</a><a href="/tags/VPS/">VPS</a><a href="/tags/SS/">SS</a><a href="/tags/youtube/">youtube</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2018/03/29/ssh极速入门/" title="ssh极速入门" itemprop="url">ssh极速入门</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="leton8888" target="_blank" itemprop="author">leton8888</a>
+		
+  <p class="article-time">
+    <time datetime="2018-03-28T16:23:15.000Z" itemprop="datePublished"> Published 2018-03-29</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <h1 id="ssh极速入门"><a href="#ssh极速入门" class="headerlink" title="ssh极速入门"></a>ssh极速入门</h1><h2 id="1-最简登陆VPS"><a href="#1-最简登陆VPS" class="headerlink" title="1.最简登陆VPS"></a>1.最简登陆VPS</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh user@host</span><br></pre></td></tr></table></figure>
+<h2 id="2-自定义端口登陆VPS"><a href="#2-自定义端口登陆VPS" class="headerlink" title="2.自定义端口登陆VPS"></a>2.自定义端口登陆VPS</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ssh user@host -p port_number</span><br><span class="line"></span><br><span class="line">例如: ssh root@20.20.20.20 -p 22222</span><br></pre></td></tr></table></figure>
+<h2 id="3-使用密钥登陆登陆VPS"><a href="#3-使用密钥登陆登陆VPS" class="headerlink" title="3.使用密钥登陆登陆VPS"></a>3.使用密钥登陆登陆VPS</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -i /your-key-path/id_rsa user@host -p port</span><br></pre></td></tr></table></figure>
+<p>注意id_rsa是你生成的私钥,共钥需要上传到你的VPS上</p>
+<h2 id="4-使用密钥和代理-SS-登陆VPS"><a href="#4-使用密钥和代理-SS-登陆VPS" class="headerlink" title="4.使用密钥和代理(SS)登陆VPS"></a>4.使用密钥和代理(SS)登陆VPS</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -i /your-key-path/id_rsa user@host -p port -o "ProxyCommand nc -X 5 -x 127.0.0.1:1080 %h %p"</span><br></pre></td></tr></table></figure>
+<p>这里 127.0.0.1:1080 是 SS 默认客户端地址和端口</p>
+<h2 id="5-使用Mosh和密钥登陆VPS"><a href="#5-使用Mosh和密钥登陆VPS" class="headerlink" title="5.使用Mosh和密钥登陆VPS"></a>5.使用Mosh和密钥登陆VPS</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mosh --ssh="ssh -p port -i /your-key-path/id_rsa " user@host</span><br></pre></td></tr></table></figure>
+<h2 id="6-搬瓦工-Vulter优惠码"><a href="#6-搬瓦工-Vulter优惠码" class="headerlink" title="6.搬瓦工,Vulter优惠码"></a>6.搬瓦工,Vulter优惠码</h2><p>如果这篇文对您有点帮助的话,并且碰巧您也需要主机优惠码的话,不妨考虑下面的链接,谢谢.</p>
+<p>优惠码:<code>BWH1ZBPVK</code> 优惠6% <a href="‘https://bandwagonhost.com/aff.php?aff=29827’">搬瓦工</a></p>
+<p><a href="&#39;https://www.vultr.com/?ref=6889102&#39;">Vultr</a></p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/SSH/">SSH</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/ssh/">ssh</a><a href="/tags/linux/">linux</a><a href="/tags/vps/">vps</a><a href="/tags/ubuntu/">ubuntu</a><a href="/tags/搬瓦工/">搬瓦工</a><a href="/tags/mosh/">mosh</a><a href="/tags/rsa/">rsa</a><a href="/tags/shadowsocks/">shadowsocks</a><a href="/tags/vultr/">vultr</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
       <a href="/2018/03/28/wordpress填坑/" title="wordpress填坑" itemprop="url">wordpress填坑</a>
   </h1>
   <p class="article-author">By
@@ -210,6 +606,27 @@
 
 
   
+<div class="categorieslist">
+	<p class="asidetitle">Categories</p>
+		<ul>
+		
+		  
+		
+		  
+			<li><a href="/categories/SSH/" title="SSH">SSH<sup>3</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/Shadowsocks/" title="Shadowsocks">Shadowsocks<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/VPS/" title="VPS">VPS<sup>2</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
 
   
 <div class="tagslist">
@@ -217,7 +634,77 @@
 		<ul class="clearfix">
 		
 			
+				<li><a href="/tags/ssh/" title="ssh">ssh<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/shadowsocks/" title="shadowsocks">shadowsocks<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/VPS/" title="VPS">VPS<sup>3</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/mosh/" title="mosh">mosh<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/youtube/" title="youtube">youtube<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/youtube-dl/" title="youtube-dl">youtube-dl<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/linux/" title="linux">linux<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/vps/" title="vps">vps<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/ubuntu/" title="ubuntu">ubuntu<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/搬瓦工/" title="搬瓦工">搬瓦工<sup>1</sup></a></li>
+			
+		
+			
 				<li><a href="/tags/wordpress/" title="wordpress">wordpress<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/rsa/" title="rsa">rsa<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/youtube-downloader/" title="youtube downloader">youtube downloader<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/vultr/" title="vultr">vultr<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/bbr/" title="bbr">bbr<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/ss/" title="ss">ss<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/SS/" title="SS">SS<sup>1</sup></a></li>
+			
+		
+			
+		
+			
+		
 			
 		
 		</ul>
