@@ -4,25 +4,25 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>无密码登陆 | Code Flow</title>
+    <title>ubuntu 时区设定 | Code Flow</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="leton8888">
     
 
     
-    <meta name="description" content="如何将公钥上传到VPS">
-<meta name="keywords" content="ssh,VPS">
+    <meta name="description" content="给ubuntu16 设定时区">
+<meta name="keywords" content="ubuntu,时区">
 <meta property="og:type" content="article">
-<meta property="og:title" content="无密码登陆">
-<meta property="og:url" content="https://leton8888.github.io/2018/03/29/无密码登陆/index.html">
+<meta property="og:title" content="ubuntu 时区设定">
+<meta property="og:url" content="https://leton8888.github.io/2018/04/01/ubuntu-时区设定/index.html">
 <meta property="og:site_name" content="Code Flow">
-<meta property="og:description" content="如何将公钥上传到VPS">
+<meta property="og:description" content="给ubuntu16 设定时区">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-28T17:42:45.948Z">
+<meta property="og:updated_time" content="2018-04-01T08:23:20.763Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="无密码登陆">
-<meta name="twitter:description" content="如何将公钥上传到VPS">
+<meta name="twitter:title" content="ubuntu 时区设定">
+<meta name="twitter:description" content="给ubuntu16 设定时区">
 
     
     <link rel="alternative" href="/atom.xml" title="Code Flow" type="application/atom+xml">
@@ -82,14 +82,14 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2018/03/29/无密码登陆/" title="无密码登陆" itemprop="url">无密码登陆</a>
+      <a href="/2018/04/01/ubuntu-时区设定/" title="ubuntu 时区设定" itemprop="url">ubuntu 时区设定</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="leton8888" target="_blank" itemprop="author">leton8888</a>
 		
   <p class="article-time">
-    <time datetime="2018-03-28T17:39:10.000Z" itemprop="datePublished"> 发表于 2018-03-29</time>
+    <time datetime="2018-04-01T08:18:03.000Z" itemprop="datePublished"> 发表于 2018-04-01</time>
     
   </p>
 </header>
@@ -98,12 +98,14 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#无密码登陆"><span class="toc-number">1.</span> <span class="toc-text">无密码登陆</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#如何将公钥上传到VPS"><span class="toc-number">1.1.</span> <span class="toc-text">如何将公钥上传到VPS</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#VPS上禁用密码登陆的设定"><span class="toc-number">1.2.</span> <span class="toc-text">VPS上禁用密码登陆的设定</span></a></li></ol></li></ol>
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#如何给-ubuntu-时区设定"><span class="toc-number">1.</span> <span class="toc-text">如何给 ubuntu 时区设定</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#查看设置"><span class="toc-number">1.1.</span> <span class="toc-text">查看设置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#当前时间"><span class="toc-number">1.2.</span> <span class="toc-text">当前时间</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#查看时区列表"><span class="toc-number">1.3.</span> <span class="toc-text">查看时区列表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#设置新时区"><span class="toc-number">1.4.</span> <span class="toc-text">设置新时区</span></a></li></ol></li></ol>
 		
 		</div>
 		
-		<h1 id="无密码登陆"><a href="#无密码登陆" class="headerlink" title="无密码登陆"></a>无密码登陆</h1><h2 id="如何将公钥上传到VPS"><a href="#如何将公钥上传到VPS" class="headerlink" title="如何将公钥上传到VPS"></a>如何将公钥上传到VPS</h2><p>ssh-copy-id -i /public key path/id_rsa.pub  user_name@host_ip -p port_num</p>
-<h2 id="VPS上禁用密码登陆的设定"><a href="#VPS上禁用密码登陆的设定" class="headerlink" title="VPS上禁用密码登陆的设定"></a>VPS上禁用密码登陆的设定</h2><p>待续…</p>
+		<h1 id="如何给-ubuntu-时区设定"><a href="#如何给-ubuntu-时区设定" class="headerlink" title="如何给 ubuntu 时区设定"></a>如何给 ubuntu 时区设定</h1><h2 id="查看设置"><a href="#查看设置" class="headerlink" title="查看设置"></a>查看设置</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">timedatectl</span><br></pre></td></tr></table></figure>
+<h2 id="当前时间"><a href="#当前时间" class="headerlink" title="当前时间"></a>当前时间</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">date</span><br></pre></td></tr></table></figure>
+<h2 id="查看时区列表"><a href="#查看时区列表" class="headerlink" title="查看时区列表"></a>查看时区列表</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">timedatectl list-timezones</span><br></pre></td></tr></table></figure>
+<h2 id="设置新时区"><a href="#设置新时区" class="headerlink" title="设置新时区"></a>设置新时区</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo timedatectl set-timezone Asia/Shanghai</span><br></pre></td></tr></table></figure>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -111,13 +113,13 @@
 
 <div class="article-categories">
   <span></span>
-  <a class="article-category-link" href="/categories/SSH/">SSH</a>
+  <a class="article-category-link" href="/categories/ubuntu/">ubuntu</a>
 </div>
 
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/ssh/">ssh</a><a href="/tags/VPS/">VPS</a>
+  <span></span> <a href="/tags/ubuntu/">ubuntu</a><a href="/tags/时区/">时区</a>
   </div>
 
 </div>
@@ -126,7 +128,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="https://leton8888.github.io/2018/03/29/无密码登陆/" data-title="无密码登陆 | Code Flow" data-tsina="" class="share clearfix">
+	  <div data-url="https://leton8888.github.io/2018/04/01/ubuntu-时区设定/" data-title="ubuntu 时区设定 | Code Flow" data-tsina="" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -140,18 +142,18 @@
 <nav class="article-nav clearfix">
  
  <div class="prev" >
- <a href="/2018/03/29/youtube-dl-安装使用/" title="youtube-dl 安装使用">
+ <a href="/2018/04/01/docker常用命令/" title="docker常用命令">
   <strong>上一篇：</strong><br/>
   <span>
-  youtube-dl 安装使用</span>
+  docker常用命令</span>
 </a>
 </div>
 
 
 <div class="next">
-<a href="/2018/03/29/一键安装Shadowsocks/"  title="一键安装Shadowsocks">
+<a href="/2018/03/29/Mosh-安装/"  title="Mosh 安装">
  <strong>下一篇：</strong><br/> 
- <span>一键安装Shadowsocks
+ <span>Mosh 安装
 </span>
 </a>
 </div>
@@ -168,7 +170,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#无密码登陆"><span class="toc-number">1.</span> <span class="toc-text">无密码登陆</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#如何将公钥上传到VPS"><span class="toc-number">1.1.</span> <span class="toc-text">如何将公钥上传到VPS</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#VPS上禁用密码登陆的设定"><span class="toc-number">1.2.</span> <span class="toc-text">VPS上禁用密码登陆的设定</span></a></li></ol></li></ol>
+ <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#如何给-ubuntu-时区设定"><span class="toc-number">1.</span> <span class="toc-text">如何给 ubuntu 时区设定</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#查看设置"><span class="toc-number">1.1.</span> <span class="toc-text">查看设置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#当前时间"><span class="toc-number">1.2.</span> <span class="toc-text">当前时间</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#查看时区列表"><span class="toc-number">1.3.</span> <span class="toc-text">查看时区列表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#设置新时区"><span class="toc-number">1.4.</span> <span class="toc-text">设置新时区</span></a></li></ol></li></ol>
  
   </div>
 
